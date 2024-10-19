@@ -1,0 +1,18 @@
+#pragma once
+
+enum TASK_STATE
+{
+	STOPPED,
+	PAUSED,
+	RUNNING,
+	STARTING,
+	ENDING
+};
+enum WINDOW_STATE
+{
+	CLOSED,
+	MINIMIZED,
+	NORMAL,
+	MAXIMIZED
+
+};

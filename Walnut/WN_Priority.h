@@ -1,0 +1,10 @@
+#pragma once
+enum PRIORITY
+{
+	MAIN,
+	VITAL,
+	IMPORTANT,
+	SIGNIFICANT,
+	UNIMPORTANT,
+	ADDITIONAL
+};

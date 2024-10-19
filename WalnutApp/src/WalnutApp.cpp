@@ -3,12 +3,19 @@
 
 #include "Walnut/Image.h"
 #include "Walnut/UI/UI.h"
+#include <Walnut/WindowManager/WN_Window.h>
+//#include "../../Walnut-Modules/Walnut-WindowManager/Source/Walnut/WindowManager/WN_Window.h"
+
+
 
 class ExampleLayer : public Walnut::Layer
 {
 public:
+	WN_Window window;
 	virtual void OnUIRender() override
 	{
+
+		window.drawWindow();
 		ImGui::Begin("Hello");
 		ImGui::Button("Button");
 		ImGui::End();
